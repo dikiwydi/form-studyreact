@@ -1,5 +1,5 @@
 function Button(props) {
-    const { className = "bg-black", tombol, children } = props;
+    const { className = "bg-black", tombol, children, type = "submit" } = props;
     return (
         <button
             {...props}
